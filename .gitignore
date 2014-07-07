@@ -1,0 +1,5 @@
+*.pyc
+*.sqlite3
+base/local_settings.py
+._*
+.DS_Store
