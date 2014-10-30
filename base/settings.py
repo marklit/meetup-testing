@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'hq-qgds&kb*hbsf461k(%95(ihcnr-10=esy4!190iaz(2lg9w'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -91,3 +91,4 @@ try:
 except ImportError:
     pass
 
+assert len(SECRET_KEY) > 20, 'Please set SECRET_KEY in local_settings.py'
