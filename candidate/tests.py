@@ -2,7 +2,6 @@ from os.path import abspath, join, dirname
 from shutil import rmtree
 from tempfile import mkdtemp
 
-
 from django.core.files.storage import FileSystemStorage
 from django.core.urlresolvers import reverse
 from django.test import TestCase
